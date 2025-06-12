@@ -75,7 +75,7 @@ const Navbar = () => {
               {navItems.map((item) => (
                 <a
                   key={item.label}
-                  href={item.href}
+                  // href={item.href}
                   className="text-muted-foreground hover:text-primary transition-colors duration-300"
                   onClick={() => setIsOpen(false)}
                 >
